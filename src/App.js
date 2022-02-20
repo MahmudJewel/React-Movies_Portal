@@ -6,15 +6,15 @@ import Navigation from "./components/Navigation";
 import Trending from "./components/pages/Trending";
 import Movies from "./components/pages/Movies";
 import Series from "./components/pages/Series";
-import Search from "./components/Search";
+import Search from "./components/pages/Search";
 
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <div className="app">
-        <Navigation />
+        <div className="">
+        <div className="navbar-fixed-top"><Navigation /></div>
           <Container>
             <Routes>
               <Route path="/" element={<Trending />} />

@@ -1,8 +1,8 @@
 
 const Series =() => {
     return(
-        <div>
-            <h2>Series</h2>
+        <div className='container'>
+            <h2 className='text-primary text-center'>Series</h2>
         </div>
     )
 }

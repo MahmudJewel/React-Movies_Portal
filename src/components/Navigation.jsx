@@ -8,7 +8,7 @@ const Navigation = () => {
         <Container>
           <Navbar.Brand>
             {" "}
-            <Link to="/">Movies Plex</Link>{" "}
+            <Link to="/">The Movies Portal</Link>{" "}
           </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link>

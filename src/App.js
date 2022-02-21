@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <div className="">
+        <div className="app">
         <div className="navbar-fixed-top"><Navigation /></div>
           <Container>
             <Routes>

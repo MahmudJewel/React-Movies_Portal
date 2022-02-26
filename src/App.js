@@ -7,6 +7,7 @@ import Trending from "./components/pages/Trending";
 import Movies from "./components/pages/Movies";
 import Series from "./components/pages/Series";
 import Search from "./components/pages/Search";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -14,8 +15,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <div className="app">
-        <div className="navbar-fixed-top"><Navigation /></div>
-          <Container>
+        <div className="row nav-fixed-top">
+          <Navigation />
+        </div>
+          <Container className="">
             <Routes>
               <Route path="/" element={<Trending />} />
               <Route path="/movies" element={<Movies />} />
@@ -25,6 +28,10 @@ function App() {
           </Container>
         </div>
       </BrowserRouter>
+      
+      <Container>
+        <Footer />
+      </Container>
     </div>
   );
 }

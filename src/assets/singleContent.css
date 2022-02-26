@@ -1,17 +1,18 @@
 .media {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 240px;
     padding: 5px;
     margin: 5px 0;
     background-color: hsl(120, 39%, 48%);
+    
     border-radius: 10px;
     position: relative;
     font-family: "Montserrat", sans-serif;
   }
   
   .media:hover {
-    background-color: gray;
+    background-color: rgb(235, 124, 124);
     color: black;
   }
   

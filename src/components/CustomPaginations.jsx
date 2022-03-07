@@ -3,7 +3,7 @@ import "../assets/customPaginations.css";
 // import { Pagination } from "react-bootstrap";
 import Pagination from "@material-ui/lab/Pagination";
 
-const CustomPaginations = ({ setPage, numOfPages = 10 }) => {
+const CustomPaginations = ({ setPage, numOfPages=10 }) => { //number of page for trending
   const handlechange = (page) => {
     setPage(page);
     window.scroll(0, 0);

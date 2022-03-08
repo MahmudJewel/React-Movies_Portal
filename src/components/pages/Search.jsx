@@ -16,7 +16,8 @@ const Search = () => {
     // eslint-disable-next-line
   }, [page]);
 
-  const fetchSearch = async () => {
+  const fetchSearch = async (e) => {
+    e.preventDefault();
     const { data } = await axios.get(
       `https://api.themoviedb.org/3/search/multi?api_key=dd42c026397aa0add4d7021e1499eb1a&language=en-US&query=${searchText}&page=${page}&include_adult=false`
     );
@@ -39,6 +40,7 @@ const Search = () => {
           className="input-group-text px-4"
           id="basic-addon2"
           onClick={fetchSearch}
+          
         >
           Search
         </Button>

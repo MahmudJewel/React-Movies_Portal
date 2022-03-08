@@ -1,4 +1,5 @@
 import "../assets/singleContent.css";
+import CustomModal from "./pages/CustomModal";
 
 import { img_300, unavailable } from "./config/config";
 import { Container, Badge } from "react-bootstrap";
@@ -12,7 +13,8 @@ const SingleContent = ({
   vote_average,
 }) => {
   return (
-    <Container media_type={media_type} id={id} className="media">
+    <CustomModal media_type={media_type} id={id} >
+      {/* <Container> */}
       <img
         className="poster"
         src={poster ? `${img_300}${poster}` : unavailable}
@@ -30,7 +32,10 @@ const SingleContent = ({
         {media_type === "tv" ? "TV Series" : "Movie"}
         <span className="subTitle">{date}</span>
       </span>
-    </Container>
+
+      {/* <CustomModal /> */}
+      {/* </Container> */}
+    </CustomModal>
   );
 };
 

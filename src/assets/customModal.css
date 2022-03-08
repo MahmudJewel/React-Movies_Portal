@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+.popup{
+    max-width: 90% !important;
+    min-height: 90vh;
+    /* background-color: cadetblue; */
+    border-radius: 25px;
+}

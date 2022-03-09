@@ -1,6 +1,8 @@
 ﻿# The movies Portal
 It is a React app of movies portal.I have used the moviedb api and axios for fetching data.
+
 The Moviedb api: [moviedb 3](https://www.themoviedb.org/documentation/api)
+
 Api doc: [Documentation](https://developers.themoviedb.org/3)
 
 ## Licence

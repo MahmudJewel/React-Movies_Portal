@@ -1,4 +1,5 @@
 import "./assets/App.css";
+// import "./assets/footer.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 
@@ -29,9 +30,9 @@ function App() {
         </div>
       </BrowserRouter>
       
-      <Container>
+      <div>
         <Footer />
-      </Container>
+      </div>
     </div>
   );
 }

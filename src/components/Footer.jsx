@@ -1,14 +1,15 @@
 // import FontAwesome from 'react-fontawesome'
-
+import '../assets/footer.css'
 
 const Footer = () => {
+  
   return (
     <footer className="footerHeader">
       <br />
       <br />
       <div className="container">
         <div className="row text-center textColor">
-          <p>Copyright &copy: Juwel Mahmud</p>
+          <p>Copyright &copy; Juwel Mahmud</p>
         </div>
         <br />
 
